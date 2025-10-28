@@ -20,9 +20,10 @@
   </header>
 
   <main>
-    <section>
-      <h2>Informações Pessoais</h2>
-      <form action="processar_cadastro.php" method="POST">
+    <form action="processar_cadastro.php" method="POST">
+      
+      <section>
+        <h2>Informações Pessoais</h2>
         <label for="nome">Nome Completo:</label>
         <input type="text" id="nome" name="nome" required><br><br>
 
@@ -37,10 +38,10 @@
 
         <label for="nascimento">Data de Nascimento:</label>
         <input type="date" id="nascimento" name="nascimento" required><br><br>
-    </section>
+      </section>
 
-    <section>
-      <h2>Endereço</h2>
+      <section>
+        <h2>Endereço</h2>
         <label for="endereco">Endereço:</label>
         <input type="text" id="endereco" name="endereco" required><br><br>
 
@@ -57,17 +58,16 @@
           <option value="RJ">RJ</option>
           <option value="MG">MG</option>
           <option value="ES">ES</option>
-          <!-- Adicione os outros estados conforme necessário -->
         </select><br><br>
-    </section>
+      </section>
 
-    <section>
-      <h2>Forma de Colaboração</h2>
+      <section>
+        <h2>Forma de Colaboração</h2>
         <label for="tipo_colaboracao">Escolha como deseja colaborar:</label><br>
-        <input type="radio" id="voluntario" name="tipo_colaboracao" value="voluntario">
-        <label for="voluntario">Voluntário</label><br>
+        <input type="radio" id="tipo_colaboracao" name="tipo_colaboracao" value="voluntario" required>
+        <label for="tipo_colaboracao">Voluntário</label><br>
         
-        <input type="radio" id="doacao" name="tipo_colaboracao" value="doacao">
+        <input type="radio" id="doacao" name="tipo_colaboracao" value="doacao" required>
         <label for="doacao">Doações</label><br><br>
 
         <label for="habilidades">Caso seja voluntário, informe suas habilidades (opcional):</label><br>
@@ -84,9 +84,9 @@
         </select><br><br>
 
         <button type="submit">Enviar Cadastro</button>
-    </section>
-  </form>
+      </section>
 
+    </form>
   </main>
 
   <footer>
