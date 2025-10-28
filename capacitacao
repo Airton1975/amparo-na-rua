@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amparo na Rua - Como Você Pode Ajudar</title>
+  <!-- Aqui você pode adicionar o link para o seu arquivo CSS se for usar estilos personalizados -->
+</head>
+<body>
+
+  <header>
+    <h1>Como Você Pode Ajudar</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="capacitacao.html">Capacitação Profissional</a></li> <!-- Link para a nova página -->
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="introducao">
+      <h2>Seja um Voluntário</h2>
+      <p>Você pode fazer a diferença na vida de muitas pessoas. Se você tem alguma habilidade e deseja compartilhá-la, nós precisamos de você! Cada ação conta, e você pode ajudar de diversas formas.</p>
+    </section>
+
+    <section id="habilidades">
+      <h2>Profissões e Habilidades que Podemos Ensinar</h2>
+      <p>A ONG Amparo na Rua oferece oportunidades para voluntários ensinarem diversas habilidades a pessoas em situação de rua, ajudando-as a ter novas chances no mercado de trabalho.</p>
+
+      <ul>
+        <li><strong>Carpinteiro:</strong> Ensinar o trabalho com madeira, criação de móveis e utensílios.</li>
+        <li><strong>Eletricista:</strong> Formação em instalações elétricas.</li>
+        <li><strong>Cozinheiro(a):</strong> Habilidades culinárias e panificação.</li>
+        <li><strong>Designer Gráfico:</strong> Ensino de design e criação de conteúdo visual.</li>
+        <li><strong>Marketing Digital:</strong> Como usar as redes sociais para promover pequenos negócios.</li>
+        <li><strong>Cabeleireiro(a):</strong> Técnicas de cortes de cabelo e cuidados estéticos.</li>
+        <li><strong>Assistente Social:</strong> Apoio e orientação para reintegração social.</li>
+        <li><strong>Artesanato:</strong> Produção e venda de itens artesanais.</li>
+      </ul>
+
+      <p>Você pode ensinar outras habilidades também. Caso tenha algum conhecimento que gostaria de compartilhar, fique à vontade para nos contar!</p>
+    </section>
+
+    <section id="cadastro-voluntario">
+      <h2>Cadastre-se Como Voluntário</h2>
+      <p>Se você deseja contribuir com sua experiência, faça seu cadastro e nos ajude a transformar vidas. Escolha a habilidade que você gostaria de ensinar ou contribuir!</p>
+      <a href="cadastro.html">Clique aqui para se cadastrar</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Amparo na Rua</p>
+  </footer>
+
+</body>
+</html>
